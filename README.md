@@ -1,2 +1,2 @@
 # KeepLeaning
-Stay foolish, stay hungry.
+Stay foolish, stay hungry !
