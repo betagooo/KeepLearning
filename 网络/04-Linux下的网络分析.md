@@ -314,13 +314,13 @@ tcp        0      0 ::1:631                     :::*                        LIST
 	netstat -an | awk '/^tcp/ {++S[$NF]}  END {for (a in S) print a,S[a]} '
 	```
 命令输出：
-	```
-LISTEN 37
-CLOSE_WAIT 25
-ESTABLISHED 581
-FIN_WAIT2 9
-TIME_WAIT 103
-	```
+   ```
+   LISTEN 37    
+   CLOSE_WAIT 25    
+   ESTABLISHED 581    
+   FIN_WAIT2 9    
+   TIME_WAIT 103
+   ```
 
 
 
