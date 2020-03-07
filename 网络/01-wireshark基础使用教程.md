@@ -68,8 +68,6 @@
 ## 过滤器
 
 > [官方过滤器说明文档](https://www.wireshark.org/docs/man-pages/wireshark-filter.html)
->
-> https://www.cnblogs.com/Jesse-HOHO/p/7811585.html
 
 ### 常用使用规则
 
@@ -195,14 +193,20 @@ wireshark抓包列表中有着丰富的颜色，各种颜色表示不同的层�
 - Transmission Control Protocol：传输层T的数据段头部信息
 - Hypertext Transfer Protocol：应用程序信息，http协议信息
 
+一般对应TCP/IP分层模型：
+
 ![image-20200303143859004](imageAssets/image-20200303143859004.png)
 
-一般对应TCP/IP分层模型：
+
 
 ![image-20200303002101793](imageAssets/image-20200303002101793.png)
 
 # 参考资料
 
+>感谢各位大佬的资料整理，小弟不才，按照自己的思绪再做整理。
+>
 >[wireshark doc](https://www.wireshark.org/docs/)
 >
 >https://www.cnblogs.com/koushuige/p/9212033.html
+>
+>https://www.cnblogs.com/Jesse-HOHO/p/7811585.html

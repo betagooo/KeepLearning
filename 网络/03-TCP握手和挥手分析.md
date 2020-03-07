@@ -1,3 +1,8 @@
+> 带着问题去学习：
+> 1. 三次握手和四次挥手的基本流程是什么？
+> 2. 交互过程中对应的报文内容是怎样的？
+> 3. 握手和挥手过程中，TCP状态是怎么转换的？
+
 # TCP 三次握手分析
 
 > 三次握手(Three-way Handshake)，是指建立一个 TCP 连接时需要客户端和服务器总共发送3个包。三次握手的目的是连接服务器指定端口，建立 TCP 连接，并同步连接双方的序列号和确认号，交换 TCP 窗口大小信息。
@@ -121,6 +126,8 @@ wireshark报文和TCP报文格式相对应：
 
 # 参考资料
 
+> 感谢各位大佬的资料整理，小弟不才，按照自己的思绪再做整理。
+>
 > https://blog.csdn.net/whuslei/article/details/6667471
 >
 > https://hit-alibaba.github.io/interview/basic/network/TCP.html
